@@ -844,6 +844,11 @@ section {
     align-items: center;
 }
 
+.contact-actions .btn {
+    min-width: 200px;
+    justify-content: center;
+}
+
 .contact .btn-primary {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
