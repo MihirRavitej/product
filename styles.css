@@ -774,8 +774,10 @@ section {
 .contact-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 80px;
+    gap: 40px;
     align-items: start;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .contact-info h3 {
