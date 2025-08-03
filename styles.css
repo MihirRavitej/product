@@ -988,6 +988,8 @@ section {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+}
+
 /* Projects Section Styles */
 .projects-new {
     background: white;
