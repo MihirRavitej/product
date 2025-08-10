@@ -203,6 +203,22 @@ document.addEventListener('DOMContentLoaded', function() {
     const projectModal = document.getElementById('project-modal');
     const modalClose = document.querySelector('.modal-close');
     const modalOverlay = document.querySelector('.modal-overlay');
+    const themeToggle = document.getElementById('theme-toggle');
+
+    // Theme toggle functionality
+    themeToggle.addEventListener('click', function() {
+        document.body.classList.toggle('dark-mode');
+        
+        // Save theme preference
+        const isDarkMode = document.body.classList.contains('dark-mode');
+        localStorage.setItem('darkMode', isDarkMode);
+    });
+
+    // Load saved theme preference
+    const savedTheme = localStorage.getItem('darkMode');
+    if (savedTheme === 'true') {
+        document.body.classList.add('dark-mode');
+    }
 
     // Tab switching functionality
     tabButtons.forEach(button => {
