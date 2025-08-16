@@ -412,6 +412,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 team: '8 specialists',
                 impact: '100% compliance',
                 users: 'Fortune 500'
+            },
+            'voip-analyzer': {
+                title: 'VOIP Traffic Analyzer (VTA)',
+                subtitle: 'Technical Consulting • Real-time Analytics & Docker Architecture',
+                overview: 'Developed a comprehensive Docker-based VOIP Traffic Analyzer that empowers network and voice operations teams to proactively monitor, analyze, and optimize VOIP traffic quality. The solution features a modular architecture with real-time data ingestion via NETCONF-YANG and protocol-specific collectors.',
+                challenge: 'Network operations teams lacked real-time visibility into VOIP call quality and performance metrics. Existing solutions were monolithic, difficult to scale, and provided limited protocol support, making it challenging to identify and resolve voice quality issues quickly.',
+                solution: 'Architected a modular, containerized platform using Docker with microservices for each protocol (SIP, RTP/RTCP). Implemented NETCONF-YANG for standardized data normalization, real-time analytics engine, and comprehensive alerting system with role-based access and multi-tenant support.',
+                results: 'Achieved >99.9% system uptime with alert latency under 5 seconds. Reduced mean time to resolution (MTTR) for VOIP issues significantly. Enhanced operational visibility and responsiveness for network teams, leading to improved user satisfaction and decreased support tickets.',
+                technologies: ['Docker', 'NETCONF-YANG', 'SIP', 'RTP/RTCP', 'Time-series DB', 'Microservices', 'REST APIs', 'RBAC'],
+                duration: '5 weeks',
+                team: '2 engineers',
+                impact: '99.9% uptime',
+                users: 'Multi-tenant'
             }
         };
         
